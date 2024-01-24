@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: red;
-    background: url(../assets/imgs/background.jpg) no-repeat center center/cover;
+    /* background-color: red; */
+    /* background: url(../assets/imgs/background.jpg) no-repeat center center/cover; */
     margin-top: -3rem;
     padding-top: 2rem;
 }
@@ -15,14 +15,13 @@
     font-weight: bold;
     color: black ;
     text-align: center;
-    background-color: rgb(190, 231, 7);
+    /* background-color: rgb(190, 231, 7); */
+    background-color: rgba(194, 194, 194, 0.295);
     margin-top: 5%;
     padding: 30px;
     border-radius: 10px;
     width: 80%;
-
 }
-
 .main-container-pokemon {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -41,7 +40,7 @@
     line-height: 25px;
 }
 
-.juego {
+/* .juego {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,5 +50,4 @@
     width: 100%;
     background-color: rgb(190, 231, 7);
     padding: 5px;
-
-}
+} */

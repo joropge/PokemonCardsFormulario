@@ -12,7 +12,6 @@
 /*----------------- Cuerpo tarjeta--------------- */
 
 .background1 {
-    background: url(../assets/imgs/background.jpg) no-repeat center center/cover;
     display: grid;
 }
 

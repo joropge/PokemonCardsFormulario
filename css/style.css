@@ -149,6 +149,7 @@
 
  .subtitulo {
    color: #ffffff;
+   background-color: transparent;
  }
 
 
@@ -245,8 +246,19 @@
    height: 50%;
    margin-top: 5%;
    /* background-color: blue; */
-   margin-bottom: 7%;
+   margin-bottom: 2%;
  }
+
+ .titulo-centrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: -17%; 
+  gap: 3rem;
+  /* margin-left: -5%; */
+}
 
  /*Formulario*/
 
