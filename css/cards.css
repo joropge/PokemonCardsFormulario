@@ -63,9 +63,7 @@
     margin-top: 2rem;
 }
 
-.date {
-    font-weight: 700;
-}
+
 
 .card-text h2 {
     font-size: 3rem;
@@ -98,7 +96,7 @@
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: bold;
-    width: 20%;
+    width: 160px;
 
 }
 
