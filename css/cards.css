@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-naranja-primary: #f12711;
     --color-maranja-secondary: #f5af19;
 
@@ -14,8 +14,6 @@
 .background1 {
     background: url(../assets/imgs/background.jpg) no-repeat center center/cover;
     display: grid;
-    
-    
 }
 
 .card-container {
@@ -78,18 +76,44 @@
     padding: 2rem;
 }
 
-.bi .bi-droplet-fill,
+.bi-droplet-fill,
 .date-3 {
     color: var(--color-azul-primary);
 }
 
-.bi .bi-fire,
+.bi-fire,
+.fire,
 .date-1 {
     color: var(--color-naranja-primary);
 }
 
 .leaf,
 .date-2 {
+    fill: var(--color-verde-primary);
+    color: var(--color-verde-primary);
+}
+
+.btn{
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 20%;
+
+}
+
+.squi {
+    background-color: var(--color-azul-secondary);
+    color: var(--color-azul-primary);
+}
+
+.char {
+    background-color: var(--color-maranja-secondary);
+    color:var(--color-naranja-primary);
+}
+
+.bulv {
+    background-color: var(--color-verde-secondary);
     color: var(--color-verde-primary);
 }
 
@@ -100,7 +124,7 @@
 .card-stats {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     width: 100%;
     padding: 2rem;
     background-color: #fff;
